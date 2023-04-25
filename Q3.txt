@@ -1,0 +1,5 @@
+As expressoes de atribuições ilegais, são:
+
+i = (*&)j. Ilegal. A expressão (*&)j não faz sentido, porque o operador de referência e o operador de desreferência não podem ser usados juntos.
+
+q = *p. A expressão *p é um valor de inteiro, não um endereço, e não pode ser atribuído a um ponteiro.
