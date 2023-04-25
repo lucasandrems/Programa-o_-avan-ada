@@ -1,0 +1,7 @@
+Programa 1:
+4 9 13
+
+Programa 2:
+445638EC 445638F0 445638F4
+
+No programa 1, ele retorna no termonar as variaveis dentro do vetor. Enquanto que no programa 2,  retorna os endereços destinados aos valores do vetor.
