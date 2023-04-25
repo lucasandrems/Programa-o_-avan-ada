@@ -1,0 +1,6 @@
+O valor das expressões é:
+- p == &i = Verdadeiro, pois o endereço de memria apontado por p é igual ao endereço de memoria de i
+- *p - *q = -2, pois *p é o valor armazenado em i e *q é o valor armazenado em j e a su
+- **&p = 3, pois a expressão **&p obtém o valor apontado pelo ponteiro p, que é o endereço de memória de i, e depois obtém o valor apontado pelo endereço de memória desse valor
+- 3 - *p/(*q) + 7 = 0, pois *p é o valor armazenado em i e *q é o valor armazenado em j.
+
