@@ -1,0 +1,7 @@
+Se x for declarado como int, x+1, x+2 e x+3 apontarão para os endereços de memória 4094, 4096 e 4098, respectivamente. Isso ocorre porque um elemento do tipo int ocupa 2 bytes, e o endereço de memória seguinte é obtido somando-se 2 ao endereço atual.
+
+Se x for declarado como char, x+1, x+2 e x+3 apontarão para os endereços de memória 4093, 4094 e 4095, respectivamente. Isso ocorre porque um elemento do tipo char ocupa 1 byte, e o endereço de memória seguinte é obtido somando-se 1 ao endereço atual.
+
+Se x for declarado como float, x+1, x+2 e x+3 apontarão para os endereços de memória 4096, 4100 e 4104, respectivamente. Isso ocorre porque um elemento do tipo float ocupa 4 bytes, e o endereço de memória seguinte é obtido somando-se 4 ao endereço atual.
+
+Se x for declarado como double, x+1, x+2 e x+3 apontarão para os endereços de memória 4100, 4108 e 4116, respectivamente. Isso ocorre porque um elemento do tipo double ocupa 8 bytes, e o endereço de memória seguinte é obtido somando-se 8 ao endereço atual.
