@@ -1,0 +1,9 @@
+As seguintes expressões são válidas:
+
+- `p = mat + 1;`: É válido atribuir a `p` o endereço do segundo elemento do array `mat`. Isso ocorre porque a aritmética de ponteiros em C permite que adicionemos um valor inteiro a um ponteiro, o que significa apontar para o elemento que está a `valor` posições depois do endereço apontado pelo ponteiro.
+
+- `p = mat++;`: Esta expressão não é válida. O operador `++` só pode ser usado com variáveis ponteiro, não com arrays. Além disso, a operação de pós-incremento não é definida para arrays.
+
+- `p = ++mat;`: Esta expressão não é válida. O operador `++` só pode ser usado com variáveis ponteiro, não com arrays. Além disso, a operação de pré-incremento não é definida para arrays.
+
+- `x = (*mat)++;`: É válido atribuir a `x` o valor do primeiro elemento do array `mat`, e em seguida incrementar esse valor em 1. Isso ocorre porque a expressão `*mat` retorna o valor do primeiro elemento do array, e o operador pós-incremento incrementa esse valor após a atribuição a `x`.
