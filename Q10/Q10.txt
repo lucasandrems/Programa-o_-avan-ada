@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main() {
+    int x[4];
+    printf("Endereco de x[0] (int): %p\n", &x[0]);
+    printf("Endereco de x[1] (int): %p\n", &x[1]);
+    printf("Endereco de x[2] (int): %p\n", &x[2]);
+    printf("Endereco de x[3] (int): %p\n", &x[3]);
+
+    char y[4];
+    printf("Endereco de y[0] (char): %p\n", &y[0]);
+    printf("Endereco de y[1] (char): %p\n", &y[1]);
+    printf("Endereco de y[2] (char): %p\n", &y[2]);
+    printf("Endereco de y[3] (char): %p\n", &y[3]);
+
+    float z[4];
+    printf("Endereco de z[0] (float): %p\n", &z[0]);
+    printf("Endereco de z[1] (float): %p\n", &z[1]);
+    printf("Endereco de z[2] (float): %p\n", &z[2]);
+    printf("Endereco de z[3] (float): %p\n", &z[3]);
+
+    double w[4];
+    printf("Endereco de w[0] (double): %p\n", &w[0]);
+    printf("Endereco de w[1] (double): %p\n", &w[1]);
+    printf("Endereco de w[2] (double): %p\n", &w[2]);
+    printf("Endereco de w[3] (double): %p\n", &w[3]);
+
+    return 0;
+}
+
+Saida:
+
+Endereco de x[0] (int): 0x7ffcc3365360
+Endereco de x[1] (int): 0x7ffcc3365364
+Endereco de x[2] (int): 0x7ffcc3365368
+Endereco de x[3] (int): 0x7ffcc336536c
+Endereco de y[0] (char): 0x7ffcc33653a4
+Endereco de y[1] (char): 0x7ffcc33653a5
+Endereco de y[2] (char): 0x7ffcc33653a6
+Endereco de y[3] (char): 0x7ffcc33653a7
+Endereco de z[0] (float): 0x7ffcc3365370
+Endereco de z[1] (float): 0x7ffcc3365374
+Endereco de z[2] (float): 0x7ffcc3365378
+Endereco de z[3] (float): 0x7ffcc336537c
+Endereco de w[0] (double): 0x7ffcc3365380
+Endereco de w[1] (double): 0x7ffcc3365388
+Endereco de w[2] (double): 0x7ffcc3365390
+Endereco de w[3] (double): 0x7ffcc3365398
