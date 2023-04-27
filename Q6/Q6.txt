@@ -1,0 +1,2 @@
+As seguintes expressões referenciam o valor do terceiro elemento do vetor:
+*(pulo + 2); A expressão *(pulo + 2) significa "obter o valor apontado pelo ponteiro que aponta para o terceiro elemento do vetor". Isso ocorre porque a notação de colchetes em C é apenas uma forma mais conveniente de usar aritmética de ponteiros, então *(pulo + 2) é equivalente a pulo[2].
