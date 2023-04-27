@@ -1,0 +1,25 @@
+Uma variável que registra o endereço de memória de uma função é chamada de ponteiro para uma função. Em outras palavras, é um meio de nos referirmos a uma função da mesma forma que nos referimos a uma variável: como um objeto na memória. Isso nos dá a capacidade de atribuir funções a variáveis, retornar funções de outras funções e fornecer funções como parâmetros para outras funções, entre outras coisas.
+
+Em C e C++, os ponteiros para funções são definidos usando o tipo de retorno da função, um asterisco (*), o nome da variável do ponteiro, uma lista dos parâmetros da função entre parênteses e, finalmente, o nome da variável do ponteiro . Para ilustração, o código abaixo define um ponteiro para uma função para calcular o fatorial de um número:
+
+#include <stdio.h>
+
+// Declaração da função fatorial
+int fatorial(int n);
+
+int main() {
+    int n = 5;
+    int (*fptr)(int); // Declaração do ponteiro para função
+    fptr = &fatorial; // Atribuição do endereço da função ao ponteiro
+    printf("O fatorial de %d é %d\n", n, (*fptr)(n)); // Chamada indireta da função usando o ponteiro
+    return 0;
+}
+
+// Definição da função fatorial
+int fatorial(int n) {
+    if (n == 0) {
+        return 1;
+    } else {
+        return n * fatorial(n - 1);
+    }
+}
