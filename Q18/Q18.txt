@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+void multiplica_matrizes(double *A, double *B, double *C, int m, int n, int p) {
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < p; j++) {
+            double soma = 0.0;
+            for (int k = 0; k < n; k++) {
+                soma += A[i*n+k] * B[k*p+j];
+            }
+            C[i*p+j] = soma;
+        }
+    }
+}
+
+int main() {
+    double A[2][3] = {{1, 2, 3}, {4, 5, 6}};
+    double B[3][4] = {{7, 8, 9, 10}, {11, 12, 13, 14}, {15, 16, 17, 18}};
+    double C[2][4];
+
+    multiplica_matrizes((double *)A, (double *)B, (double *)C, 2, 3, 4);
+
+    printf("Matriz A:\n");
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("%.2f ", A[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("Matriz B:\n");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 4; j++) {
+            printf("%.2f ", B[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("Matriz C:\n");
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 4; j++) {
+            printf("%.2f ", C[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
