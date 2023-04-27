@@ -1,0 +1,15 @@
+aloha[2] = value; // Válido, atribui o valor da variável value ao terceiro elemento do vetor aloha.
+
+scanf("%f", &aloha); // Inválido, a função scanf() requer o endereço de uma variável, não um vetor inteiro.
+
+aloha = value; // Inválido, não é possível atribuir um valor único a um vetor inteiro.
+
+printf("%f", aloha); // Inválido, a variável aloha é um vetor inteiro e não pode ser impressa diretamente com a função printf().
+
+coisas[4][4] = aloha[3]; // Válido, atribui o valor do quarto elemento do vetor aloha ao elemento [4][4] da matriz coisas.
+
+coisas[5] = aloha; // Inválido, não é possível atribuir um vetor inteiro a um elemento de matriz.
+
+pf = value; // Inválido, o ponteiro para float pf precisa receber um endereço de memória que contenha um float, não um valor float diretamente.
+
+pf = aloha; // Válido, o ponteiro para float pf pode apontar para o primeiro elemento do vetor float aloha.
