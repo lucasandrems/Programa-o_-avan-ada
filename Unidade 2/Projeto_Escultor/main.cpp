@@ -38,4 +38,6 @@ int main(void)
 
     martelo.writeOFF("Martelo.off");
     cout << "martelo" << endl;
+
+    return 0;
 }

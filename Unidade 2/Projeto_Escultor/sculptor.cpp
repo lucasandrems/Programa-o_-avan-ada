@@ -1,4 +1,4 @@
-#include "sculptor.h"
+#include "sculptor.hpp"
 #include <iostream>
 #include <stdlib.h>
 #include <cmath>
@@ -197,17 +197,18 @@ void Sculptor::writeOFF(char *filename){
             }
         }
     }
-
+    int index = 0;
     for (i = 0; i < nx; i++){
         for (j = 0; j < ny; j++){
             for (k = 0; k < nz; k++){
                 if (this->vox[i][j][k].isOn){
-                    myFile << 4 << " " << 0 + 8*i << " " << 3 + 8*i << " " << 2 + 8*i << " " << 1 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
-                    myFile << 4 << " " << 4 + 8*i << " " << 5 + 8*i << " " << 6 + 8*i << " " << 7 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
-                    myFile << 4 << " " << 0 + 8*i << " " << 1 + 8*i << " " << 5 + 8*i << " " << 4 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
-                    myFile << 4 << " " << 0 + 8*i << " " << 4 + 8*i << " " << 7 + 8*i << " " << 3 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
-                    myFile << 4 << " " << 3 + 8*i << " " << 7 + 8*i << " " << 6 + 8*i << " " << 2 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
-                    myFile << 4 << " " << 1 + 8*i << " " << 2 + 8*i << " " << 6 + 8*i << " " << 5 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
+                    myFile << 4 << " " << 0 + 8*index << " " << 3 + 8*index << " " << 2 + 8*index << " " << 1 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
+                    myFile << 4 << " " << 4 + 8*index << " " << 5 + 8*index << " " << 6 + 8*index << " " << 7 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
+                    myFile << 4 << " " << 0 + 8*index << " " << 1 + 8*index << " " << 5 + 8*index << " " << 4 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
+                    myFile << 4 << " " << 0 + 8*index << " " << 4 + 8*index << " " << 7 + 8*index << " " << 3 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
+                    myFile << 4 << " " << 3 + 8*index << " " << 7 + 8*index << " " << 6 + 8*index << " " << 2 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
+                    myFile << 4 << " " << 1 + 8*index << " " << 2 + 8*index << " " << 6 + 8*index << " " << 5 + 8*i << " " << vox[i][j][k].r << " " << vox[i][j][k].g << " " << vox[i][j][k].b << " " << vox[i][j][k].a << " " << endl;
+                    index++;
                 }
             }
         }

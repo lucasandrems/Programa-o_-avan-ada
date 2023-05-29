@@ -34,7 +34,7 @@
 		</Compiler>
 		<Unit filename="main.cpp" />
 		<Unit filename="sculptor.cpp" />
-		<Unit filename="sculptor.h" />
+		<Unit filename="sculptor.hpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
