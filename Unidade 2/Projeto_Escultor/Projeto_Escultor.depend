@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1685320300 source:c:\users\lucas\onedrive\Área de trabalho\ultimo\projeto_escultor\main.cpp
+	<iostream>
+	"sculptor.h"
+
+1685319846 source:c:\users\lucas\onedrive\Área de trabalho\ultimo\projeto_escultor\sculptor.cpp
+	"sculptor.h"
+	<iostream>
+	<stdlib.h>
+	<cmath>
+	<vector>
+	<fstream>
+
+1685320323 c:\users\lucas\onedrive\Área de trabalho\ultimo\projeto_escultor\sculptor.h
+	<string>
+
