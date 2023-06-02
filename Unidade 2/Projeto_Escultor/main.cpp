@@ -6,7 +6,7 @@ using namespace std;
 int main(void)
 {
     int c;
-    Sculptor martelo(150, 150, 150);
+    Sculptor martelo(150, 150, 150);//Cinza
 
     martelo.setColor(0.502, 0.502, 0.502, 1.0);
     martelo.putVoxel(0, 0, 0);
@@ -37,7 +37,6 @@ int main(void)
     }
 
     martelo.writeOFF("Martelo.off");
-    cout << "martelo" << endl;
 
     return 0;
 }

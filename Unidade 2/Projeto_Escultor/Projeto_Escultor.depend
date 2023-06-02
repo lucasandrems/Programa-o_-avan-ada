@@ -14,3 +14,21 @@
 	<iostream>
 	"sculptor.h"
 
+1685325091 source:d:\github\programacao_avancada\unidade 2\projeto_escultor\main.cpp
+	<iostream>
+	"sculptor.h"
+
+1685320323 d:\github\programacao_avancada\unidade 2\projeto_escultor\sculptor.h
+	<string>
+
+1685334481 source:d:\github\programacao_avancada\unidade 2\projeto_escultor\sculptor.cpp
+	"sculptor.hpp"
+	<iostream>
+	<stdlib.h>
+	<cmath>
+	<vector>
+	<fstream>
+
+1685325217 d:\github\programacao_avancada\unidade 2\projeto_escultor\sculptor.hpp
+	<string>
+
