@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Escultor_parte2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Escultor_parte2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Escultor_parte2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="cutbox.cpp" />
+		<Unit filename="cutbox.h" />
+		<Unit filename="cutellipsoid.cpp" />
+		<Unit filename="cutellipsoid.h" />
+		<Unit filename="cutsphere.cpp" />
+		<Unit filename="cutsphere.h" />
+		<Unit filename="cutvoxel.cpp" />
+		<Unit filename="cutvoxel.h" />
+		<Unit filename="desenho" />
+		<Unit filename="figurageometrica.cpp" />
+		<Unit filename="figurageometrica.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="putbox.cpp" />
+		<Unit filename="putbox.h" />
+		<Unit filename="putellipsoid.cpp" />
+		<Unit filename="putellipsoid.h" />
+		<Unit filename="putsphere.cpp" />
+		<Unit filename="putsphere.h" />
+		<Unit filename="putvoxel.cpp" />
+		<Unit filename="putvoxel.h" />
+		<Unit filename="sculptor.cpp" />
+		<Unit filename="sculptor.h" />
+		<Unit filename="sculptor.hpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
