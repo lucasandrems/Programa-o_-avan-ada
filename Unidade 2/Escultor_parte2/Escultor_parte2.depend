@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\cutbox.cpp
+	"cutbox.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\cutbox.h
+	"figurageometrica.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\figurageometrica.h
+	"sculptor.h"
+	<iostream>
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\sculptor.h
+	<string>
+
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\cutellipsoid.cpp
+	"cutellipsoid.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\cutellipsoid.h
+	"figurageometrica.h"
+
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\cutsphere.cpp
+	"cutsphere.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\cutsphere.h
+	"figurageometrica.h"
+
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\cutvoxel.cpp
+	"cutvoxel.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\cutvoxel.h
+	"figurageometrica.h"
+
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\figurageometrica.cpp
+	"figurageometrica.h"
+
+1687064084 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	"sculptor.h"
+	"figurageometrica.h"
+	"putvoxel.h"
+	"cutvoxel.h"
+	"putbox.h"
+	"cutbox.h"
+	"putsphere.h"
+	"cutsphere.h"
+	"putellipsoid.h"
+	"cutellipsoid.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\putvoxel.h
+	"figurageometrica.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\putbox.h
+	"figurageometrica.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\putsphere.h
+	"figurageometrica.h"
+
+1687056878 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\putellipsoid.h
+	"figurageometrica.h"
+
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\putbox.cpp
+	"putbox.h"
+
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\putellipsoid.cpp
+	"putellipsoid.h"
+
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\putsphere.cpp
+	"putsphere.h"
+
+1687056878 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\putvoxel.cpp
+	"putvoxel.h"
+
+1687063783 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\sculptor.cpp
+	<string>
+	<iostream>
+	<fstream>
+	"sculptor.hpp"
+	<cstdlib>
+
+1687062894 d:\github\aerotur\01projetos iniciados\projeto_escultor\parte 2\escultor_parte2\sculptor.hpp
+	<string>
+

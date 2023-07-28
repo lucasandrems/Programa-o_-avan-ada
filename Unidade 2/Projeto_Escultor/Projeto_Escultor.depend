@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1685319846 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\sculptor.cpp
+	"sculptor.h"
+	<iostream>
+	<stdlib.h>
+	<cmath>
+	<vector>
+	<fstream>
+
+1685324964 d:\github\aerotur\01projetos iniciados\projeto_escultor\sculptor.h
+	<string>
+
+1685325091 source:d:\github\aerotur\01projetos iniciados\projeto_escultor\main.cpp
+	<iostream>
+	"sculptor.h"
+
+1685357734 source:d:\github\programacao_avancada\unidade 2\projeto_escultor\main.cpp
+	<iostream>
+	"sculptor.h"
+
+1685320323 d:\github\programacao_avancada\unidade 2\projeto_escultor\sculptor.h
+	<string>
+
+1685334481 source:d:\github\programacao_avancada\unidade 2\projeto_escultor\sculptor.cpp
+	"sculptor.hpp"
+	<iostream>
+	<stdlib.h>
+	<cmath>
+	<vector>
+	<fstream>
+
+1685325217 d:\github\programacao_avancada\unidade 2\projeto_escultor\sculptor.hpp
+	<string>
+
